@@ -1,0 +1,66 @@
+module shifter (
+    input  logic [3:0] X,
+    input logic S0,
+    input logic S1,
+    output logic [3:0] Y
+);
+
+wire w3, w2, w1, w0;
+
+mux2to1 mux3X (
+    .select(S1), 
+    .in0(X[3]), 
+    .in1(X[1]), 
+    .out(w3)
+);
+
+mux2to1 mux2X (
+    .select(S1), 
+    .in0(X[2]), 
+    .in1(X[0]), 
+    .out(w2)
+);
+
+mux2to1 mux1X (
+    .select(S1), 
+    .in0(X[1]), 
+    .in1(1'b0), 
+    .out(w1)
+);
+
+mux2to1 mux0X (
+    .select(S1),
+    .in0(X[0]), 
+    .in1(1'b0), 
+    .out(w0)
+);
+
+mux2to1 mux3Y (
+    .select(S0), 
+    .in0(w3), 
+    .in1(w2),   
+    .out(Y[3])
+);
+
+mux2to1 mux2Y (
+    .select(S0), 
+    .in0(w2), 
+    .in1(w1),   
+    .out(Y[2])
+);
+
+mux2to1 mux1Y (
+    .select(S0), 
+    .in0(w1), 
+    .in1(w0),   
+    .out(Y[1])
+);
+
+mux2to1 mux0Y (
+    .select(S0), 
+    .in0(w0), 
+    .in1(1'b0), 
+    .out(Y[0])
+);
+
+endmodule

@@ -1,0 +1,39 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {C:/Users/user/Documents/Semester 4/DSD Lab/Lab 5/questa/3xMultiplier.mpf}
+# Loading project 3xMultiplier
+# Compile of full_adder.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of ripple_carry.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of decoder1.sv was successful.
+# Compile of decoder2.sv was successful.
+# Compile of top_multiplier.sv was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of full_adder.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of mux2to1.sv was successful.
+# Compile of ripple_carry.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of multiplier_tb.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of decoder1.sv was successful.
+# Compile of decoder2.sv was successful.
+# Compile of top_multiplier.sv was successful.
+# 10 compiles, 0 failed with no errors.
