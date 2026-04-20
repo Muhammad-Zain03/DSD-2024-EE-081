@@ -1,0 +1,72 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa
+T_opt
+!s110 1772606667
+VO4jY:9m;BSB6lN4dDazQL2
+04 6 4 work BCD_tb fast 0
+=1-84ba598aa7d5-69a7d4cb-98-d08
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vBCD
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1772606661
+!i10b 1
+!s100 ]MOk8<J[j8aW=<ohh^N;G0
+IemaEZdfLVeTKQz_Ynk]Rk2
+S1
+Z3 dC:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/questa
+w1772606443
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv
+!i122 4
+L0 1 47
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1772606661.000000
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@b@c@d
+vBCD_tb
+R1
+R2
+!i10b 1
+!s100 KYZ>CCD;PVRn0^GFYWYZD3
+I<BYf^CPo0NJGhQTC1ImQ71
+S1
+R3
+w1772606657
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv
+!i122 5
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv|
+!i113 0
+R7
+R0
+n@b@c@d_tb

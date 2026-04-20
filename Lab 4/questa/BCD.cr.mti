@@ -1,0 +1,15 @@
+{C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module BCD
+
+Top level modules:
+	BCD
+
+} {} {}} {C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/user/Documents/Semester 4/DSD Lab/Lab 4/src/BCD_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module BCD_tb
+
+Top level modules:
+	BCD_tb
+
+} {} {}}
