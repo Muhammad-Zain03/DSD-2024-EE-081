@@ -1,0 +1,60 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa/RCA_Decoder.mpf}
+# Loading project RCA_Decoder
+# Compile of decoder.sv was successful.
+# Compile of decoder1.sv was successful.
+# Compile of decoder2.sv was successful.
+# Compile of full_adder.sv was successful.
+# Compile of ripple_carry.sv was successful.
+# Compile of top_adder_decoder.sv was successful.
+# Compile of decoder_tb.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.decoder_tb
+# vsim -voptargs="+acc" work.decoder_tb 
+# Start time: 05:47:33 on Mar 09,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.decoder_tb(fast)
+# Loading work.top_adder_decoder(fast)
+# Loading work.ripple_carry(fast)
+# Loading work.full_adder(fast)
+# Loading work.decoder(fast)
+# Loading work.decoder1(fast)
+# Loading work.decoder2(fast)
+add wave sim:/decoder_tb/*
+run
+# a	b	c_in	result(seg)	an
+# 000	000	0	0000001	01111111
+# 001	010	0	0000110	01111111
+# 011	011	0	0100000	01111111
+# 101	011	1	0000100	01111111
+# 101	110	1	0110001	01111111
+# 111	111	1	0111000	01111111
+# ERROR:seg_output_incorrect
+# PASS:an_output_correct
+# Now_its_your_turn ! _Try_other_input_combinations_to_explore_the_adder_output.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa/RCA_Decoder.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa/RCA_Decoder.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa/RCA_Decoder.mpf).  File can not be renamed.
+# End time: 05:49:39 on Mar 09,2026, Elapsed time: 0:02:06
+# Errors: 3, Warnings: 2

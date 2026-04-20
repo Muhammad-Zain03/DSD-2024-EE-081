@@ -1,0 +1,193 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Documents/Semester 4/DSD Lab/Lab2/questa
+T_opt
+!s110 1773017255
+Vc]iaZHY?DNR9BEQ_SNRe`0
+04 10 4 work decoder_tb fast 0
+=1-84ba598aa7d5-69ae18a6-7a-3094
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vdecoder
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1773017241
+!i10b 1
+!s100 T=HC9We1nR3OADmd5h]`?1
+I=GW6HT6mGaiWIK4QkF:]h0
+S1
+Z4 dC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/questa
+w1773017067
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder.sv
+!i122 34
+Z5 L0 1 21
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1773017240.000000
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdecoder1
+R2
+R3
+!i10b 1
+!s100 P4kMiez]K`El6Jfk50U_]0
+IN<H2QFW6<_AQkn5DZZKF=3
+S1
+R4
+w1773016994
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder1.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder1.sv
+!i122 35
+L0 1 23
+R6
+R7
+r1
+!s85 0
+31
+Z9 !s108 1773017241.000000
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder1.sv|
+!i113 0
+R8
+R1
+vdecoder2
+R2
+R3
+!i10b 1
+!s100 gQlG=CN74D:jkN9BV:=^B3
+IHcdI_o@d@dVVk0B8KGZXR0
+S1
+R4
+w1772548072
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder2.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder2.sv
+!i122 36
+L0 1 16
+R6
+R7
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/decoder2.sv|
+!i113 0
+R8
+R1
+vdecoder_tb
+R2
+R3
+!i10b 1
+!s100 jIN<fcc2cJLZlUJL><^Aj0
+I[<AnYe`X@?D:^K=[Z>Fe`2
+S1
+R4
+w1772475971
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/sim/decoder_tb.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/sim/decoder_tb.sv
+!i122 40
+L0 3 83
+R6
+R7
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/sim/decoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/sim/decoder_tb.sv|
+!i113 0
+R8
+R1
+vfull_adder
+R2
+R3
+!i10b 1
+!s100 Ijn_NmRP3_@_cdEJalF7U1
+Id6E05R;:8FRc<4czePCWW3
+S1
+R4
+w1772004028
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/full_adder.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/full_adder.sv
+!i122 37
+R5
+R6
+R7
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/full_adder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/full_adder.sv|
+!i113 0
+R8
+R1
+vripple_carry
+R2
+R3
+!i10b 1
+!s100 IjJmQ6Sli;ImN8mZfEd2?1
+IN^c4BXQo`RG5>:klJb<7;3
+S1
+R4
+w1772004026
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/ripple_carry.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/ripple_carry.sv
+!i122 38
+L0 1 35
+R6
+R7
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/ripple_carry.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/ripple_carry.sv|
+!i113 0
+R8
+R1
+vtop_adder_decoder
+R2
+R3
+!i10b 1
+!s100 BnVhT@?XJ3R@9f_B5]am`0
+I2=k[l:m:eIPWA_`IPiFEX3
+S1
+R4
+w1773017178
+8C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/top_adder_decoder.sv
+FC:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/top_adder_decoder.sv
+!i122 39
+L0 1 30
+R6
+R7
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/top_adder_decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/user/Documents/Semester 4/DSD Lab/Lab 3/src/top_adder_decoder.sv|
+!i113 0
+R8
+R1
