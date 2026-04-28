@@ -62,3 +62,54 @@ $\rightarrow$ *We will be making gates using CMOS.*
 | :---: | :---: |
 | 0V | 3V |
 | 3V | 0V |
+
+## Lecture #2 | Part 1 (25/04/2026)
+
+### Underlying Operational Characteristics of CMOS
+* **n-type** $\rightarrow$ Bad at pulling up
+* **p-type** $\rightarrow$ Bad at pulling down
+* **Reason:** goes down to physics.
+
+| type | Good at passing |
+| :---: | :---: |
+| **n** | 0 |
+| **p** | 1 |
+
+> $\rightarrow$ **Note:** Series combination of MOS increases latency!
+
+### Power Consumption
+
+**[Energy consumption]** $\rightarrow$ $Power \times Time$ ($P \times T$)
+
+**1. [Dynamic]** Power used to charge capacitance while switching.
+* Formula: $C \times V^2 \times f$
+* Where: $C \rightarrow$ capacitance, $V \rightarrow$ voltage, $f \rightarrow$ frequency
+* > *Note: capacitance $\propto$ wire length*
+
+**2. [Static]** Power used while idle (not switching).
+* Formula: $V \times I_{leakage}$
+
+### MOORE'S Law
+* Number (#) of transistors increases, keeping area constant, as time goes on, implying costs of transistors decreases.
+
+### How we build Logic Circuits?
+
+**Specifications:**
+* **[Function spec]** $\rightarrow$ Input/Output relation
+* **[Timing spec]** $\rightarrow$ latency
+
+**General Flow:**
+Inputs $\rightarrow$ **[Logic Circuit]** (functional spec + timing spec) $\rightarrow$ Outputs
+
+**Types of Logic:**
+* **type 1: [Combinational logic]** $\rightarrow$ memoryless
+* **type 2: [Sequential logic]** $\rightarrow$ Has memory
+
+### Boolean Algebra: Duality
+* AND $\xleftrightarrow{\text{Dual}}$ OR
+* 1 $\xleftrightarrow{\text{Dual}}$ 0
+* *Note: Literal and complement won't change!*
+
+### De Morgan's Law:
+* $\overline{(X+Y+Z+\dots)} = \overline{X} \cdot \overline{Y} \cdot \overline{Z} \dots$
+* $\overline{(X \cdot Y \cdot Z \dots)} = \overline{X} + \overline{Y} + \overline
