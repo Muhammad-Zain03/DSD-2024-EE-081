@@ -112,4 +112,9 @@ Inputs $\rightarrow$ **[Logic Circuit]** (functional spec + timing spec) $\right
 
 ### De Morgan's Law:
 * $\overline{(X+Y+Z+\dots)} = \overline{X} \cdot \overline{Y} \cdot \overline{Z} \dots$
-* $\overline{(X \cdot Y \cdot Z \dots)} = \overline{X} + \overline{Y} + \overline
+* $\overline{(X \cdot Y \cdot Z \dots)} = \overline{X} + \overline{Y} + \overline{Z} + \dots$
+* $\rightarrow$ *Helpful in keeping Gates of choice in design.*
+
+### Function Representation
+* $\downarrow$ **SOP (sum of products)** $\rightarrow$ Sum of **[Min terms]** $\xrightarrow{eval}$ 1 terms
+* $\downarrow$ **POS (product of sum)** $\rightarrow$ Product of **[Max terms]** $\xrightarrow{eval}$ 0 terms
