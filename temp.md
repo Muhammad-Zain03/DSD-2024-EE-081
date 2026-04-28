@@ -118,3 +118,52 @@ Inputs $\rightarrow$ **[Logic Circuit]** (functional spec + timing spec) $\right
 ### Function Representation
 * $\downarrow$ **SOP (sum of products)** $\rightarrow$ Sum of **[Min terms]** $\xrightarrow{eval}$ 1 terms
 * $\downarrow$ **POS (product of sum)** $\rightarrow$ Product of **[Max terms]** $\xrightarrow{eval}$ 0 terms
+
+## Lecture #2 | Part 2 (25/04/2026 + 26/04/2026)
+
+$\rightarrow$ **Why we simplify:** to reduce cost and latency!
+
+$\rightarrow$ Minterm $\leftrightarrow$ Maxterm **[Conversion]**
+* **e.g.** $\Sigma m(1,3,5) \Leftrightarrow \Pi M(0,2,4)$
+
+### [Combinational Blocks]
+*Group of combinational circuits.*
+
+$\downarrow$ **Examples:**
+
+**1. Decoder:**
+* **Function:** Interpret a bit pattern.
+* **Inputs:** $n$
+* **Outputs:** $2^n$ (one hot)
+
+**2. Multiplexer (MUX):**
+* **Function:** Select an input based on the select signal.
+* **Inputs:** $N$ inputs, 1 `select` signal.
+* **Outputs:** 1 output.
+
+**3. Full Adder:**
+* **Function:** Performs 1-bit addition while taking $C_{in}$ and giving $C_{out}$.
+* **Inputs:** $a$, $b$, $C_{in}$
+* **Outputs:** $S$ (Sum), $C_{out}$
+* *Note: Series combo gives N-bit adder (Increase latency).*
+
+**4. Programmable Logic Array (PLA):**
+* *We program the connection.*
+* **Function:** Connect the output of an AND Gate to the input of an OR Gate if corresponding minterm is included in the SOP.
+* $\rightarrow$ Has only AND, OR, Inverter.
+* **Structure Flow:** In ($M$) $\rightarrow$ **[AND Array]** ($N$) $\rightarrow$ **[OR Array]** ($P$) $\rightarrow$ Out
+
+**5. Comparators:**
+* **Case:** Equality checker (e.g., 4-bit)
+* **Inputs:** $A$ (4-bit), $B$ (4-bit) $\rightarrow$ **[ = ]** $\rightarrow$ **Output:** Equal
+
+**6. ALU (Arithmetic Logic Unit):**
+* **Function:** Combines a variety of arithmetic and logical operations in a single unit.
+* **Inputs:** $A$ ($N$-bit), $B$ ($N$-bit), Control line $F$ (3-bit) $\rightarrow$ **Output:** $Y$ ($N$-bit)
+
+**7. Tri-State Buffer:**
+* **Function:** Enables gating of different signals onto a wire. (Input: $A$, Enable: $E$ $\rightarrow$ Output: $Y$)
+* **[Uses]:**
+  * Prevents collisions of value
+  * Connecting to the bus
+  * Making Multiplexers
